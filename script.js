@@ -5,7 +5,24 @@ console.clear();
 // Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: nome e peso.
 // Stampare a schermo la bici con peso minore.
 
-
+const bici = [
+    {
+        nome: "Graziella",
+        peso: 18
+    },
+    {
+        nome: "Focus",
+        peso: 20
+    },
+    {
+        nome: "Pinarello",
+        peso: 17
+    },
+    {
+        nome: "BMC",
+        peso: 22
+    }
+];
 
 // Snack2
 // Creare un array di oggetti di squadre di calcio.
