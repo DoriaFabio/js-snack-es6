@@ -81,6 +81,15 @@ const footballTeam = [
     }
 ];
 
+function random (min, max) {
+    return Math.floor(Math.random()*(max - min + 1)) + min;
+}
+for (let i = 0; i<footballTeam.length; i++) {
+    footballTeam[i].puntiFatti = random(1, 100);
+    footballTeam[i].falliSubiti = random(1, 50);
+}
+console.log(footballTeam);
+
 // Snack 3 (Bonus)
 // Scrivere una funzione che accetti tre argomenti, un array e due numeri (a più piccolo di b).
 // La funzione ritornerà un nuovo array con i valori che hanno la posizione compresa tra i due numeri.
